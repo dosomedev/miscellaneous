@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON Example 1</title>
+</head>
+<body>
+    <h2>Animal Info</h2>
+
+    <table>
+        <tr>
+            <td><label for="animal">Animal:</label></td>
+            <td><input type="text" id="animal" values="" readonly></td>
+        </tr>
+        <tr>
+            <td><label for="name">Name:</label></td>
+            <td><input type="text" id="name" values="" readonly></td>
+        </tr>
+        <tr>
+            <td><label for="breed">Breed:</label></td>
+            <td><input type="text" id="breed" values="" readonly></td>
+        </tr>
+        <tr>
+            <td><label for="age">Age:</label></td>
+            <td><input type="number" id="age" values="" readonly></td>
+        </tr>
+    </table>
+
+    <script type="text/javascript">
+        /*
+        let animals = [
+            {
+                "animal": "Dog",
+                "name": "Max",
+                "breed": "Golden Retriever",
+                "age": 2
+            },
+            {
+                "animal": "Cat",
+                "name": "Luna",
+                "breed": "Siamese",
+                "age": 1
+            }
+        ];
+        */
+        let animalsString = '[{"animal":"Dog","name":"Max","breed":"Golden Retriever","age":2},{"animal":"Cat","name":"Luna","breed":"Siamese","age":1}]';
+        let animals = JSON.parse(animalsString);
+
+        let singleAnimal = animals[1];
+
+        document.getElementById("animal").value = singleAnimal.animal;
+        document.getElementById("name").value   = singleAnimal.name;
+        document.getElementById("breed").value  = singleAnimal.breed;
+        document.getElementById("age").value    = singleAnimal.age;
+
+        console.log(animals);
+    </script>
+</body>
+</html>

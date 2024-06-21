@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm -rf api-gui-app/target
+rm api-gui-app/dependency-reduced-pom.xml

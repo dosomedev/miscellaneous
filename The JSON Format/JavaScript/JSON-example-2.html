@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON Example 1</title>
+</head>
+<body>
+    <h2>Animal Info</h2>
+
+    <label for="animalIndex">Index:</label>
+    <input type="number" id="animalIndex" min="0">
+    <button onclick="displayAnimalInfo(document.getElementById('animalIndex').value)">Show Animal Info</button>
+
+    <hr>
+
+    <table>
+        <tr>
+            <td><label for="animal">Animal:</label></td>
+            <td><input type="text" id="animal" values="" readonly></td>
+        </tr>
+        <tr>
+            <td><label for="name">Name:</label></td>
+            <td><input type="text" id="name" values="" readonly></td>
+        </tr>
+        <tr>
+            <td><label for="breed">Breed:</label></td>
+            <td><input type="text" id="breed" values="" readonly></td>
+        </tr>
+        <tr>
+            <td><label for="age">Age:</label></td>
+            <td><input type="number" id="age" values="" readonly></td>
+        </tr>
+    </table>
+
+    <script type="text/javascript">
+        function displayAnimalInfo(animalIndex) {
+            animalIndex = parseInt(animalIndex); // Ensure numeric value.
+
+            if (isNaN(animalIndex) || animalIndex <= 0) {
+                animalIndex = 0;
+                document.getElementById("animalIndex").value = animalIndex
+            }
+
+            fetch('http://localhost:8080/api/animals')
+            .then(response => response.json()) // Parse to JSON.
+            .then(animals => {
+                let singleAnimal = animals[animalIndex];
+
+                document.getElementById("animal").value = singleAnimal.animal;
+                document.getElementById("name").value   = singleAnimal.name;
+                document.getElementById("breed").value  = singleAnimal.breed;
+                document.getElementById("age").value    = singleAnimal.age;
+            })
+            .catch(error => {
+                document.getElementById("animal").value = "";
+                document.getElementById("name").value   = "";
+                document.getElementById("breed").value  = "";
+                document.getElementById("age").value    = "";
+            })
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+    "pets": [
+        {
+            "species": "Cat",
+            "age": null,
+            "trained": false,
+            "favoriteToys": ["laser", "feather"]
+        },
+        {
+            "species": "Dog",
+            "age": 5,
+            "trained": true,
+            "favoriteToys": ["ball", "frisbee"]
+        }
+    ]
+}

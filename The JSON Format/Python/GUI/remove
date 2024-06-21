@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rm -rf __pycache__
+rm -rf ./data/__pycache__
+rm -rf ./model/__pycache__
+rm -rf ./view/__pycache__
