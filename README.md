@@ -15,3 +15,15 @@ Ready to dive into a world of interesting and challenging new IT topics? You are
 
 # Information
 Head over to my [YouTube channel @DoSomeDev](https://youtube.com/@DoSomeDev) or website [www.dosomedev.com](https://www.dosomedev.com) for in-depth explanations and tutorials on every project found here. You'll get the best understanding by combining all my available media.
+
+# Find Me Here
+[![WebSite](./img/website.svg 'Link to dosomedev.com')](https://dosomedev.com)
+[![YouTube](./img/youtube.svg 'Link to YouTube')](https://www.youtube.com/@dosomedev)
+[![X](./img/x.svg 'Link to X')](https://x.com/DoSomeDev)
+[![GitHub](./img/github.svg 'Link to GitHub')](https://github.com/dosomedev)
+[![Facebook](./img/facebook.svg 'Link to Facebook')](https://facebook.com/dsd.dosomedev)
+[![Instagram](./img/instagram.svg 'Link to Instagram')](https://instagram.com/dosomedev)
+[![Threads](./img/threads.svg 'Link to Threads')](https://threads.net/@dosomedev)
+[![TikTok](./img/tiktok.svg 'Link to TikTok')](https://tiktok.com/@dosomedev)
+[![Tumblr](./img/tumblr.svg 'Link to Tumblr')](https://tumblr.com/dosomedev)
+
