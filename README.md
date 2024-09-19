@@ -14,11 +14,11 @@ Whether you're a seasoned developer or just starting out, this repository empowe
 Ready to dive into a world of interesting and challenging new IT topics? You are just about right here! Feel free to explore, copy, and use all the codes you can find.
 
 # Information
-Head over to my [YouTube channel @DoSomeDev](https://youtube.com/@DoSomeDev) or website [www.dosomedev.com](https://www.dosomedev.com) for in-depth explanations and tutorials on every project found here. You'll get the best understanding by combining all my available media.
+Head over to my [YouTube channel @DoSomeDev](https://youtube.com/@DoSomeDev?sub_confirmation=1) or website [www.dosomedev.com](https://www.dosomedev.com) for in-depth explanations and tutorials on every project found here. You'll get the best understanding by combining all my available media.
 
 # Find Me Here
 [![WebSite](./img/website.svg 'Link to dosomedev.com')](https://dosomedev.com)
-[![YouTube](./img/youtube.svg 'Link to YouTube')](https://www.youtube.com/@dosomedev)
+[![YouTube](./img/youtube.svg 'Link to YouTube')](https://www.youtube.com/@dosomedev?sub_confirmation=1)
 [![X](./img/x.svg 'Link to X')](https://x.com/DoSomeDev)
 [![GitHub](./img/github.svg 'Link to GitHub')](https://github.com/dosomedev)
 [![Facebook](./img/facebook.svg 'Link to Facebook')](https://facebook.com/dsd.dosomedev)
