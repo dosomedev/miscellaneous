@@ -8,7 +8,7 @@ Welcome to the **Do Some Dev** code repository for the miscellaneous projects. H
 
 | Topic | Links |
 | :--- | :--- |
-| **The JSON Format** <br> [![Link to YouTube](https://github.com/dosomedev/java/blob/main/img/the-json-format.png?raw=true)](https://youtu.be/YtgOdVv1Ufo) | - [Code Example](./The%20JSON%20Format) <br> - [YouTube Video](https://youtu.be/YtgOdVv1Ufo) |
+| **The JSON Format** <br> [![Link to YouTube](https://github.com/dosomedev/miscellaneous/blob/main/img/the-json-format.png?raw=true)](https://youtu.be/YtgOdVv1Ufo) | - [Code Example](./The%20JSON%20Format) <br> - [YouTube Video](https://youtu.be/YtgOdVv1Ufo) |
 
 # Meet Me Here
 * [All my other channels](https://dosomedev.com/contact)
